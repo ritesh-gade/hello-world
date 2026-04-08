@@ -11,10 +11,15 @@
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
 
-  <properties>
+  <!-- <properties>
     <project.build.sourceEncoding>utf-25</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-25</project.reporting.outputEncoding>
-  </properties>
+  </properties> -->
+
+<properties>
+    <maven.compiler.source>25</maven.compiler.source>
+    <maven.compiler.target>25</maven.compiler.target>
+</properties>
 
   <modules>
     <module>server</module>
